@@ -116,7 +116,8 @@ def main():
     df.to_csv(OUT / "exp1_summary.csv", index=False)
 
     # figure: median predictable compensator and median log e-process
-    fig, axes = plt.subplots(2, 2, figsize=(10, 7.5), sharex="col")
+    matplotlib.rcParams.update({"font.size": 12, "axes.titlesize": 12, "axes.labelsize": 12, "xtick.labelsize": 11, "ytick.labelsize": 11, "legend.fontsize": 10, "lines.linewidth": 1.8})
+    fig, axes = plt.subplots(2, 2, figsize=(8, 6.8), sharex="col")
     cmap = plt.get_cmap("viridis")
     for j, (g, r0, T) in enumerate(SETTINGS):
         days = np.arange(1, T + 1)
@@ -128,13 +129,15 @@ def main():
             axes[1, j].plot(days, cvs["logE_median"], color=col)
         axes[0, j].set_yscale("log")
         axes[0, j].set_title(fr"$g={g}$, $r_0={r0}$")
-        axes[0, j].set_ylabel("median cumulative KL vs LF predictable null")
+        axes[0, j].set_ylabel("median cumulative KL (nats)")
         axes[1, j].axhline(np.log(1 / 0.05), ls=":", c="grey")
         axes[1, j].axhline(np.log(1e6), ls="--", c="grey")
-        axes[1, j].set_ylabel("median log safe e-process")
+        axes[1, j].set_ylabel("median log e-process")
         axes[1, j].set_xlabel("day")
         axes[1, j].set_ylim(-60, 60)
-    axes[0, 0].legend(fontsize=8)
+    axes[0, 0].legend(fontsize=9)
+    for _ax, _l in zip(np.atleast_1d(axes).flat, "ABCD"):
+        _ax.text(-0.16, 1.02, _l, transform=_ax.transAxes, fontsize=15, fontweight="bold", va="bottom", ha="left")
     fig.tight_layout()
     fig.savefig(OUT / "exp1_predictable_null.pdf"); fig.savefig(OUT / "exp1_predictable_null.png", dpi=150)
     with pd.option_context("display.width", 200, "display.max_columns", 50):

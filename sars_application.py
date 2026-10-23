@@ -183,12 +183,12 @@ def main():
     df.to_csv(OUT / "sars_alarm_days.csv", index=False)
 
     # figure: incidence/exposure, then log evidence for r0 = 1.5 from both start days
-    fig, axes = plt.subplots(3, 1, figsize=(9, 10), sharex=True, gridspec_kw=dict(height_ratios=[1, 1.4, 1.4]))
+    matplotlib.rcParams.update({"font.size": 12, "axes.titlesize": 12, "axes.labelsize": 12, "xtick.labelsize": 11, "ytick.labelsize": 11, "legend.fontsize": 10, "lines.linewidth": 1.8})
+    fig, axes = plt.subplots(3, 1, figsize=(8, 9.6), sharex=True, gridspec_kw=dict(height_ratios=[1, 1.4, 1.4]))
     axes[0].bar(days, y, color="grey", label="onsets")
     axes[0].plot(days, lam_si, "k-", lw=1, label=r"exposure $\Lambda_t$ (SI)")
     axes[0].axvline(t0_auto + 1, ls=":", c="k"); axes[0].axvline(25, ls=":", c="k")
-    axes[0].set_ylabel("per day"); axes[0].legend(fontsize=8)
-    axes[0].set_title("SARS 2003, Hong Kong", fontsize=10)
+    axes[0].set_ylabel("per day"); axes[0].legend(fontsize=10)
     r0 = 1.5
     for ax, (start_label, _, _) in zip(axes[1:], starts[:2]):
         for cname, ls in [("known SI", "-"), ("Gamma +/-2 d", "--"), ("short side [m-3, m]", ":")]:
@@ -197,11 +197,14 @@ def main():
                 ax.plot(dd, le, ls, color=col, lw=1.2, label=f"{cname}, {kname}")
         ax.axhline(np.log(20), c="grey", lw=.8); ax.axhline(np.log(1000), c="grey", lw=.8, ls="--")
         ax.set_ylim(-20, 40)
-        ax.set_ylabel(r"log e-process, $H_0$: $R_t\leq1.5$")
-        ax.set_title(start_label, fontsize=9)
-    axes[1].legend(fontsize=6.5, ncol=3)
+        ax.set_ylabel(r"log e-process ($H_0$: $R_t\leq1.5$)")
+        ax.set_title(start_label, fontsize=12)
+    h, l = axes[1].get_legend_handles_labels()
+    fig.legend(h, l, loc="lower center", ncol=3, fontsize=9, frameon=False)
     axes[2].set_xlabel("day since first case")
-    fig.tight_layout()
+    for _ax, _l in zip(np.atleast_1d(axes).flat, "ABCD"):
+        _ax.text(-0.1, 1.02, _l, transform=_ax.transAxes, fontsize=15, fontweight="bold", va="bottom", ha="left")
+    fig.tight_layout(rect=[0, 0.085, 1, 1])
     fig.savefig(OUT / "sars_application.pdf"); fig.savefig(OUT / "sars_application.png", dpi=150)
 
     pd.set_option("display.width", 220); pd.set_option("display.max_rows", 400)

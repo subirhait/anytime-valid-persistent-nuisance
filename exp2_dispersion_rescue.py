@@ -132,7 +132,8 @@ def main():
     print(f"All {len(df)} grid nulls: |z|<2 for {np.mean(np.abs(z)<2):.3f}; corr(theory, empirical)={np.corrcoef(df.J_theory, df.J_empirical)[0,1]:.4f}")
 
     # figure
-    fig, axes = plt.subplots(1, len(R0_LIST), figsize=(10, 4.2), sharey=True)
+    matplotlib.rcParams.update({"font.size": 12, "axes.titlesize": 12, "axes.labelsize": 12, "xtick.labelsize": 11, "ytick.labelsize": 11, "legend.fontsize": 10, "lines.linewidth": 1.8})
+    fig, axes = plt.subplots(1, len(R0_LIST), figsize=(8, 4.0), sharey=True)
     markers = {0.2: "o", 0.5: "s", 2.0: "^"}
     for ax, r0 in zip(np.atleast_1d(axes), R0_LIST):
         R = renewal_R(disc_gamma_weights(5.0), G)
@@ -147,11 +148,12 @@ def main():
             ax.plot(sub.chi_kappa, sub.J_theory_of_min_null, markers[kappa0], mfc="none",
                     color=line.get_color(), ms=9, alpha=.6)
         ax.axvline(1.0, ls=":", c="grey")
-        ax.set_title(fr"$r_0={r0}$, $R={R:.3f}$, $R_{{\min}}=r_0/1.10$")
+        ax.set_title(fr"$r_0={r0}$, $R={R:.3f}$", fontsize=12)
         ax.set_xlabel(r"$\chi_\kappa=\kappa_0 r_0/(\kappa_- R)$")
-    np.atleast_1d(axes)[0].set_ylabel("least-favourable information rate (nats/day)")
-    np.atleast_1d(axes)[0].legend(fontsize=8)
-    fig.suptitle("Dispersion rescue: lines = $J_{LF}$ (theory); filled = empirical rate of least-favourable grid null ($\\pm$2 SE); hollow = its theoretical rate", fontsize=10)
+    np.atleast_1d(axes)[0].set_ylabel("LF information rate (nats/day)")
+    np.atleast_1d(axes)[0].legend(fontsize=10)
+    for _ax, _l in zip(np.atleast_1d(axes).flat, "ABCD"):
+        _ax.text(-0.2, 1.02, _l, transform=_ax.transAxes, fontsize=15, fontweight="bold", va="bottom", ha="left")
     fig.tight_layout()
     fig.savefig(OUT / "exp2_dispersion_rescue.pdf"); fig.savefig(OUT / "exp2_dispersion_rescue.png", dpi=150)
     with pd.option_context("display.width", 200, "display.max_columns", 30):

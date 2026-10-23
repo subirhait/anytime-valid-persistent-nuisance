@@ -1,7 +1,7 @@
 {
   "title": "Code for: Anytime-valid sequential detection under persistent nuisance: predictable nulls and dispersion rescue",
   "upload_type": "software",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Python and R code that reproduces every simulation, figure and table in Hait (2026), 'Anytime-valid sequential detection under persistent nuisance: predictable nulls and dispersion rescue', including the SARS 2003 Hong Kong application.",
   "creators": [
     {
