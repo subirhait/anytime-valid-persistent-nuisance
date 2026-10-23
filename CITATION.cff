@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Code for: Anytime-valid sequential detection under persistent nuisance: predictable nulls and dispersion rescue"
+authors:
+  - family-names: Hait
+    given-names: Subir
+    affiliation: Michigan State University
+    orcid: "https://orcid.org/0009-0004-9871-9677"
+version: 1.0.0
+date-released: 2026-10-22
+license: MIT
+repository-code: "https://github.com/subirhait/anytime-valid-persistent-nuisance"

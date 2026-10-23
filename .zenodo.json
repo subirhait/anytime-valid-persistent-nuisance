@@ -1,0 +1,22 @@
+{
+  "title": "Code for: Anytime-valid sequential detection under persistent nuisance: predictable nulls and dispersion rescue",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "Python and R code that reproduces every simulation, figure and table in Hait (2026), 'Anytime-valid sequential detection under persistent nuisance: predictable nulls and dispersion rescue', including the SARS 2003 Hong Kong application.",
+  "creators": [
+    {
+      "name": "Hait, Subir",
+      "affiliation": "Michigan State University",
+      "orcid": "0009-0004-9871-9677"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "anytime-valid inference",
+    "e-process",
+    "epidemic surveillance",
+    "generation interval",
+    "negative binomial",
+    "reproduction number"
+  ]
+}

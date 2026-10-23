@@ -1,0 +1,271 @@
+start,r0,gi_class,dispersion,t0_day,max_log_evidence,alarm_day_0.05,alarm_day_0.01,alarm_day_0.001
+start day 13 (auto),1.0,known SI,Poisson,13,204.75246343582043,21.0,21.0,21.0
+start day 13 (auto),1.0,known SI,NB kappa-=1,13,85.89837124629865,21.0,22.0,22.0
+start day 13 (auto),1.0,known SI,NB kappa-=0.5,13,54.31148086632612,22.0,22.0,22.0
+start day 13 (auto),1.0,known SI,NB kappa-=0.16,13,20.90239282287918,23.0,23.0,24.0
+start day 13 (auto),1.0,Gamma +/-1 d,Poisson,13,170.68849821073945,21.0,21.0,21.0
+start day 13 (auto),1.0,Gamma +/-1 d,NB kappa-=1,13,72.68452642457198,21.0,22.0,22.0
+start day 13 (auto),1.0,Gamma +/-1 d,NB kappa-=0.5,13,46.02672613836768,22.0,22.0,22.0
+start day 13 (auto),1.0,Gamma +/-1 d,NB kappa-=0.16,13,17.630326396467087,23.0,23.0,24.0
+start day 13 (auto),1.0,Gamma +/-2 d,Poisson,13,139.90665572398254,21.0,21.0,21.0
+start day 13 (auto),1.0,Gamma +/-2 d,NB kappa-=1,13,60.369523581650014,21.0,22.0,22.0
+start day 13 (auto),1.0,Gamma +/-2 d,NB kappa-=0.5,13,38.255408310824706,22.0,22.0,22.0
+start day 13 (auto),1.0,Gamma +/-2 d,NB kappa-=0.16,13,14.539704737141765,23.0,23.0,24.0
+start day 13 (auto),1.0,"short side [m-3, m]",Poisson,13,109.53427458575233,21.0,21.0,21.0
+start day 13 (auto),1.0,"short side [m-3, m]",NB kappa-=1,13,47.84332596983006,21.0,22.0,22.0
+start day 13 (auto),1.0,"short side [m-3, m]",NB kappa-=0.5,13,30.296977573290793,22.0,22.0,22.0
+start day 13 (auto),1.0,"short side [m-3, m]",NB kappa-=0.16,13,11.351382423081116,23.0,23.0,24.0
+start day 13 (auto),1.0,KL eps=0.1,Poisson,13,152.46386320101237,21.0,21.0,21.0
+start day 13 (auto),1.0,KL eps=0.1,NB kappa-=1,13,65.43787169388656,21.0,22.0,22.0
+start day 13 (auto),1.0,KL eps=0.1,NB kappa-=0.5,13,41.45985784695286,22.0,22.0,22.0
+start day 13 (auto),1.0,KL eps=0.1,NB kappa-=0.16,13,15.816671704877105,23.0,23.0,24.0
+start day 13 (auto),1.0,KL eps=0.3,Poisson,13,119.8991411055777,21.0,21.0,21.0
+start day 13 (auto),1.0,KL eps=0.3,NB kappa-=1,13,52.16182594945221,21.0,22.0,22.0
+start day 13 (auto),1.0,KL eps=0.3,NB kappa-=0.5,13,33.04715864262222,22.0,22.0,22.0
+start day 13 (auto),1.0,KL eps=0.3,NB kappa-=0.16,13,12.456030766704068,23.0,23.0,39.0
+start day 13 (auto),1.0,"long side [m, m+3] (invalid if GI shorter)",Poisson,13,202.7366824766956,21.0,21.0,21.0
+start day 13 (auto),1.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=1,13,85.12804206244414,21.0,22.0,22.0
+start day 13 (auto),1.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.5,13,53.829963080614064,22.0,22.0,22.0
+start day 13 (auto),1.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.16,13,20.71286564351696,23.0,23.0,24.0
+start day 13 (auto),1.0,known SI,EpiEstim-style P(R_t>r0)>0.95,13,,13.0,,
+start day 13 (auto),1.0,known SI,growth-rate 95% lower bound,13,,21.0,,
+start day 13 (auto),1.5,known SI,Poisson,13,91.321074810823,21.0,21.0,22.0
+start day 13 (auto),1.5,known SI,NB kappa-=1,13,24.676090268985217,22.0,22.0,22.0
+start day 13 (auto),1.5,known SI,NB kappa-=0.5,13,14.285479323253625,22.0,23.0,23.0
+start day 13 (auto),1.5,known SI,NB kappa-=0.16,13,4.99598698287889,23.0,24.0,
+start day 13 (auto),1.5,Gamma +/-1 d,Poisson,13,83.4448252048787,21.0,22.0,22.0
+start day 13 (auto),1.5,Gamma +/-1 d,NB kappa-=1,13,22.51905360255055,22.0,22.0,23.0
+start day 13 (auto),1.5,Gamma +/-1 d,NB kappa-=0.5,13,12.96327061026377,22.0,23.0,23.0
+start day 13 (auto),1.5,Gamma +/-1 d,NB kappa-=0.16,13,4.478997963783295,23.0,,
+start day 13 (auto),1.5,Gamma +/-2 d,Poisson,13,74.39534481195138,21.0,22.0,22.0
+start day 13 (auto),1.5,Gamma +/-2 d,NB kappa-=1,13,20.58086290353141,22.0,22.0,23.0
+start day 13 (auto),1.5,Gamma +/-2 d,NB kappa-=0.5,13,11.894307629111509,22.0,23.0,23.0
+start day 13 (auto),1.5,Gamma +/-2 d,NB kappa-=0.16,13,4.131855821716458,23.0,,
+start day 13 (auto),1.5,"short side [m-3, m]",Poisson,13,61.710972130249374,22.0,22.0,22.0
+start day 13 (auto),1.5,"short side [m-3, m]",NB kappa-=1,13,17.823116116739776,22.0,22.0,23.0
+start day 13 (auto),1.5,"short side [m-3, m]",NB kappa-=0.5,13,10.369194619253744,22.0,23.0,23.0
+start day 13 (auto),1.5,"short side [m-3, m]",NB kappa-=0.16,13,3.634235927362166,24.0,,
+start day 13 (auto),1.5,KL eps=0.1,Poisson,13,74.41842846711137,21.0,22.0,22.0
+start day 13 (auto),1.5,KL eps=0.1,NB kappa-=1,13,20.585815995359912,22.0,22.0,23.0
+start day 13 (auto),1.5,KL eps=0.1,NB kappa-=0.5,13,11.897041014541134,22.0,23.0,23.0
+start day 13 (auto),1.5,KL eps=0.1,NB kappa-=0.16,13,4.132744702691026,23.0,,
+start day 13 (auto),1.5,KL eps=0.3,Poisson,13,58.285936246528934,22.0,22.0,22.0
+start day 13 (auto),1.5,KL eps=0.3,NB kappa-=1,13,17.052579054517278,22.0,22.0,23.0
+start day 13 (auto),1.5,KL eps=0.3,NB kappa-=0.5,13,9.941199916599732,22.0,23.0,23.0
+start day 13 (auto),1.5,KL eps=0.3,NB kappa-=0.16,13,3.493759800564572,24.0,,
+start day 13 (auto),1.5,"long side [m, m+3] (invalid if GI shorter)",Poisson,13,90.21928607086922,21.0,22.0,22.0
+start day 13 (auto),1.5,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=1,13,24.321323438037506,22.0,22.0,22.0
+start day 13 (auto),1.5,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.5,13,14.094029262645517,22.0,23.0,23.0
+start day 13 (auto),1.5,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.16,13,4.933154359697287,23.0,24.0,
+start day 13 (auto),1.5,known SI,EpiEstim-style P(R_t>r0)>0.95,13,,13.0,,
+start day 13 (auto),1.5,known SI,growth-rate 95% lower bound,13,,23.0,,
+start day 13 (auto),2.0,known SI,Poisson,13,73.25933431223012,22.0,22.0,22.0
+start day 13 (auto),2.0,known SI,NB kappa-=1,13,16.38494456558686,22.0,23.0,23.0
+start day 13 (auto),2.0,known SI,NB kappa-=0.5,13,9.141301046835444,23.0,23.0,24.0
+start day 13 (auto),2.0,known SI,NB kappa-=0.16,13,3.073779566498798,24.0,,
+start day 13 (auto),2.0,Gamma +/-1 d,Poisson,13,63.35765761362846,22.0,22.0,22.0
+start day 13 (auto),2.0,Gamma +/-1 d,NB kappa-=1,13,14.68699651664788,22.0,23.0,23.0
+start day 13 (auto),2.0,Gamma +/-1 d,NB kappa-=0.5,13,8.232840674557323,23.0,23.0,24.0
+start day 13 (auto),2.0,Gamma +/-1 d,NB kappa-=0.16,13,2.7870850650997703,,,
+start day 13 (auto),2.0,Gamma +/-2 d,Poisson,13,52.82660998197484,22.0,22.0,22.0
+start day 13 (auto),2.0,Gamma +/-2 d,NB kappa-=1,13,12.778352561611708,22.0,23.0,23.0
+start day 13 (auto),2.0,Gamma +/-2 d,NB kappa-=0.5,13,7.205616384325147,23.0,23.0,24.0
+start day 13 (auto),2.0,Gamma +/-2 d,NB kappa-=0.16,13,2.4601371146695037,,,
+start day 13 (auto),2.0,"short side [m-3, m]",Poisson,13,40.11097059621902,22.0,22.0,22.0
+start day 13 (auto),2.0,"short side [m-3, m]",NB kappa-=1,13,10.164003274441228,23.0,23.0,23.0
+start day 13 (auto),2.0,"short side [m-3, m]",NB kappa-=0.5,13,5.777446949650777,23.0,23.0,
+start day 13 (auto),2.0,"short side [m-3, m]",NB kappa-=0.16,13,1.997214343598344,,,
+start day 13 (auto),2.0,KL eps=0.1,Poisson,13,52.85190847170031,22.0,22.0,22.0
+start day 13 (auto),2.0,KL eps=0.1,NB kappa-=1,13,12.783164517236,22.0,23.0,23.0
+start day 13 (auto),2.0,KL eps=0.1,NB kappa-=0.5,13,7.208218392870485,23.0,23.0,24.0
+start day 13 (auto),2.0,KL eps=0.1,NB kappa-=0.16,13,2.46097033331956,,,
+start day 13 (auto),2.0,KL eps=0.3,Poisson,13,36.99932624071489,22.0,22.0,22.0
+start day 13 (auto),2.0,KL eps=0.3,NB kappa-=1,13,9.459989853181236,23.0,23.0,23.0
+start day 13 (auto),2.0,KL eps=0.3,NB kappa-=0.5,13,5.386297201622497,23.0,24.0,
+start day 13 (auto),2.0,KL eps=0.3,NB kappa-=0.16,13,1.8679124623908576,,,
+start day 13 (auto),2.0,"long side [m, m+3] (invalid if GI shorter)",Poisson,13,71.8485744571919,22.0,22.0,22.0
+start day 13 (auto),2.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=1,13,16.145455741066247,22.0,23.0,23.0
+start day 13 (auto),2.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.5,13,9.013348971741696,23.0,23.0,24.0
+start day 13 (auto),2.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.16,13,3.033499757930608,24.0,,
+start day 13 (auto),2.0,known SI,EpiEstim-style P(R_t>r0)>0.95,13,,13.0,,
+start day 13 (auto),2.0,known SI,growth-rate 95% lower bound,13,,23.0,,
+start day 25 (after hospital cluster),1.0,known SI,Poisson,25,131.87365935639468,25.0,25.0,26.0
+start day 25 (after hospital cluster),1.0,known SI,NB kappa-=1,25,56.622153770490044,26.0,27.0,29.0
+start day 25 (after hospital cluster),1.0,known SI,NB kappa-=0.5,25,35.849572922859494,27.0,29.0,38.0
+start day 25 (after hospital cluster),1.0,known SI,NB kappa-=0.16,25,13.614131201920124,38.0,38.0,39.0
+start day 25 (after hospital cluster),1.0,Gamma +/-1 d,Poisson,25,106.56801693884238,26.0,26.0,27.0
+start day 25 (after hospital cluster),1.0,Gamma +/-1 d,NB kappa-=1,25,46.13337424998085,29.0,31.0,38.0
+start day 25 (after hospital cluster),1.0,Gamma +/-1 d,NB kappa-=0.5,25,29.17576718362488,32.0,38.0,38.0
+start day 25 (after hospital cluster),1.0,Gamma +/-1 d,NB kappa-=0.16,25,10.971137067762369,38.0,39.0,39.0
+start day 25 (after hospital cluster),1.0,Gamma +/-2 d,Poisson,25,84.18025914173974,31.0,32.0,38.0
+start day 25 (after hospital cluster),1.0,Gamma +/-2 d,NB kappa-=1,25,36.776762397989216,38.0,38.0,38.0
+start day 25 (after hospital cluster),1.0,Gamma +/-2 d,NB kappa-=0.5,25,23.207580221014876,38.0,38.0,39.0
+start day 25 (after hospital cluster),1.0,Gamma +/-2 d,NB kappa-=0.16,25,8.561337455752872,39.0,39.0,40.0
+start day 25 (after hospital cluster),1.0,"short side [m-3, m]",Poisson,25,62.88766769912911,38.0,38.0,38.0
+start day 25 (after hospital cluster),1.0,"short side [m-3, m]",NB kappa-=1,25,27.626261388889514,38.0,38.0,38.0
+start day 25 (after hospital cluster),1.0,"short side [m-3, m]",NB kappa-=0.5,25,17.33063813046676,38.0,39.0,39.0
+start day 25 (after hospital cluster),1.0,"short side [m-3, m]",NB kappa-=0.16,25,6.168844381323822,39.0,40.0,
+start day 25 (after hospital cluster),1.0,KL eps=0.1,Poisson,25,93.39758621099334,29.0,31.0,32.0
+start day 25 (after hospital cluster),1.0,KL eps=0.1,NB kappa-=1,25,40.66039300976274,38.0,38.0,38.0
+start day 25 (after hospital cluster),1.0,KL eps=0.1,NB kappa-=0.5,25,25.689565848172176,38.0,38.0,38.0
+start day 25 (after hospital cluster),1.0,KL eps=0.1,NB kappa-=0.16,25,9.565729299547504,39.0,39.0,40.0
+start day 25 (after hospital cluster),1.0,KL eps=0.3,Poisson,25,70.51756239629562,38.0,38.0,38.0
+start day 25 (after hospital cluster),1.0,KL eps=0.3,NB kappa-=1,25,30.935041124337193,38.0,38.0,38.0
+start day 25 (after hospital cluster),1.0,KL eps=0.3,NB kappa-=0.5,25,19.46062045632105,38.0,38.0,39.0
+start day 25 (after hospital cluster),1.0,KL eps=0.3,NB kappa-=0.16,25,7.038438519193177,39.0,39.0,41.0
+start day 25 (after hospital cluster),1.0,"long side [m, m+3] (invalid if GI shorter)",Poisson,25,130.53725876259531,25.0,25.0,26.0
+start day 25 (after hospital cluster),1.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=1,25,56.11848299850055,26.0,27.0,29.0
+start day 25 (after hospital cluster),1.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.5,25,35.53075974267237,27.0,29.0,38.0
+start day 25 (after hospital cluster),1.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.16,25,13.486707816482422,38.0,38.0,39.0
+start day 25 (after hospital cluster),1.0,known SI,EpiEstim-style P(R_t>r0)>0.95,25,,25.0,,
+start day 25 (after hospital cluster),1.0,known SI,growth-rate 95% lower bound,25,,25.0,,
+start day 25 (after hospital cluster),1.5,known SI,Poisson,25,29.058803842847045,26.0,39.0,39.0
+start day 25 (after hospital cluster),1.5,known SI,NB kappa-=1,25,9.474245501534199,39.0,39.0,40.0
+start day 25 (after hospital cluster),1.5,known SI,NB kappa-=0.5,25,5.133127438177873,40.0,41.0,
+start day 25 (after hospital cluster),1.5,known SI,NB kappa-=0.16,25,1.0850652033234667,,,
+start day 25 (after hospital cluster),1.5,Gamma +/-1 d,Poisson,25,15.98363087500491,39.0,39.0,39.0
+start day 25 (after hospital cluster),1.5,Gamma +/-1 d,NB kappa-=1,25,4.65474292383931,40.0,41.0,
+start day 25 (after hospital cluster),1.5,Gamma +/-1 d,NB kappa-=0.5,25,2.138528775915921,,,
+start day 25 (after hospital cluster),1.5,Gamma +/-1 d,NB kappa-=0.16,25,-0.022158240372363913,,,
+start day 25 (after hospital cluster),1.5,Gamma +/-2 d,Poisson,25,6.359238037874874,40.0,40.0,
+start day 25 (after hospital cluster),1.5,Gamma +/-2 d,NB kappa-=1,25,0.9933069448653677,,,
+start day 25 (after hospital cluster),1.5,Gamma +/-2 d,NB kappa-=0.5,25,-0.16412454549025135,,,
+start day 25 (after hospital cluster),1.5,Gamma +/-2 d,NB kappa-=0.16,25,-0.2453308475005782,,,
+start day 25 (after hospital cluster),1.5,"short side [m-3, m]",Poisson,25,0.5028091369388665,,,
+start day 25 (after hospital cluster),1.5,"short side [m-3, m]",NB kappa-=1,25,-1.2907519236911216,,,
+start day 25 (after hospital cluster),1.5,"short side [m-3, m]",NB kappa-=0.5,25,-1.2522578660976316,,,
+start day 25 (after hospital cluster),1.5,"short side [m-3, m]",NB kappa-=0.16,25,-0.5572770896713206,,,
+start day 25 (after hospital cluster),1.5,KL eps=0.1,Poisson,25,10.057691934351896,39.0,40.0,40.0
+start day 25 (after hospital cluster),1.5,KL eps=0.1,NB kappa-=1,25,2.4147215391208636,,,
+start day 25 (after hospital cluster),1.5,KL eps=0.1,NB kappa-=0.5,25,0.7346288812402033,,,
+start day 25 (after hospital cluster),1.5,KL eps=0.1,NB kappa-=0.16,25,-0.2611774536935805,,,
+start day 25 (after hospital cluster),1.5,KL eps=0.3,Poisson,25,2.6139098800357,,,
+start day 25 (after hospital cluster),1.5,KL eps=0.3,NB kappa-=1,25,-0.4396769146743815,,,
+start day 25 (after hospital cluster),1.5,KL eps=0.3,NB kappa-=0.5,25,-1.0624256721799155,,,
+start day 25 (after hospital cluster),1.5,KL eps=0.3,NB kappa-=0.16,25,-0.5982005241029302,,,
+start day 25 (after hospital cluster),1.5,"long side [m, m+3] (invalid if GI shorter)",Poisson,25,28.321160634153568,26.0,39.0,39.0
+start day 25 (after hospital cluster),1.5,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=1,25,9.206216878680307,39.0,39.0,40.0
+start day 25 (after hospital cluster),1.5,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.5,25,4.967259889827142,40.0,41.0,
+start day 25 (after hospital cluster),1.5,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.16,25,1.0183761202728991,,,
+start day 25 (after hospital cluster),1.5,known SI,EpiEstim-style P(R_t>r0)>0.95,25,,25.0,,
+start day 25 (after hospital cluster),1.5,known SI,growth-rate 95% lower bound,25,,25.0,,
+start day 25 (after hospital cluster),2.0,known SI,Poisson,25,0.09276124963461285,,,
+start day 25 (after hospital cluster),2.0,known SI,NB kappa-=1,25,-0.04018486817434752,,,
+start day 25 (after hospital cluster),2.0,known SI,NB kappa-=0.5,25,-0.02273917951128368,,,
+start day 25 (after hospital cluster),2.0,known SI,NB kappa-=0.16,25,-0.0075863445572252886,,,
+start day 25 (after hospital cluster),2.0,Gamma +/-1 d,Poisson,25,-1.454719986717957,,,
+start day 25 (after hospital cluster),2.0,Gamma +/-1 d,NB kappa-=1,25,-0.7328314029593122,,,
+start day 25 (after hospital cluster),2.0,Gamma +/-1 d,NB kappa-=0.5,25,-0.46464890458029595,,,
+start day 25 (after hospital cluster),2.0,Gamma +/-1 d,NB kappa-=0.16,25,-0.1781726243113777,,,
+start day 25 (after hospital cluster),2.0,Gamma +/-2 d,Poisson,25,-2.4302442635964434,,,
+start day 25 (after hospital cluster),2.0,Gamma +/-2 d,NB kappa-=1,25,-1.427886030761497,,,
+start day 25 (after hospital cluster),2.0,Gamma +/-2 d,NB kappa-=0.5,25,-0.9739609999222436,,,
+start day 25 (after hospital cluster),2.0,Gamma +/-2 d,NB kappa-=0.16,25,-0.3979337404705543,,,
+start day 25 (after hospital cluster),2.0,"short side [m-3, m]",Poisson,25,-3.1416004781016227,,,
+start day 25 (after hospital cluster),2.0,"short side [m-3, m]",NB kappa-=1,25,-2.103370142055475,,,
+start day 25 (after hospital cluster),2.0,"short side [m-3, m]",NB kappa-=0.5,25,-1.5641657793022454,,,
+start day 25 (after hospital cluster),2.0,"short side [m-3, m]",NB kappa-=0.16,25,-0.7036247234227408,,,
+start day 25 (after hospital cluster),2.0,KL eps=0.1,Poisson,25,-2.4792871661203923,,,
+start day 25 (after hospital cluster),2.0,KL eps=0.1,NB kappa-=1,25,-1.4695310088132154,,,
+start day 25 (after hospital cluster),2.0,KL eps=0.1,NB kappa-=0.5,25,-1.0073418904686124,,,
+start day 25 (after hospital cluster),2.0,KL eps=0.1,NB kappa-=0.16,25,-0.4135056782392694,,,
+start day 25 (after hospital cluster),2.0,KL eps=0.3,Poisson,25,-3.207154544327381,,,
+start day 25 (after hospital cluster),2.0,KL eps=0.3,NB kappa-=1,25,-2.17359676380002,,,
+start day 25 (after hospital cluster),2.0,KL eps=0.3,NB kappa-=0.5,25,-1.6316146957682665,,,
+start day 25 (after hospital cluster),2.0,KL eps=0.3,NB kappa-=0.16,25,-0.7435897627289254,,,
+start day 25 (after hospital cluster),2.0,"long side [m, m+3] (invalid if GI shorter)",Poisson,25,-0.03230571099526891,,,
+start day 25 (after hospital cluster),2.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=1,25,-0.1126301398484868,,,
+start day 25 (after hospital cluster),2.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.5,25,-0.06678823281186652,,,
+start day 25 (after hospital cluster),2.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.16,25,-0.02396324293969787,,,
+start day 25 (after hospital cluster),2.0,known SI,EpiEstim-style P(R_t>r0)>0.95,25,,25.0,,
+start day 25 (after hospital cluster),2.0,known SI,growth-rate 95% lower bound,25,,25.0,,
+"start day 25, days 38-40 not scored",1.0,known SI,Poisson,25,26.95470169514139,25.0,25.0,26.0
+"start day 25, days 38-40 not scored",1.0,known SI,NB kappa-=1,25,11.499256059883075,26.0,27.0,29.0
+"start day 25, days 38-40 not scored",1.0,known SI,NB kappa-=0.5,25,6.94057203973972,27.0,29.0,42.0
+"start day 25, days 38-40 not scored",1.0,known SI,NB kappa-=0.16,25,2.0934058735863665,,,
+"start day 25, days 38-40 not scored",1.0,Gamma +/-1 d,Poisson,25,15.052830879733168,26.0,26.0,27.0
+"start day 25, days 38-40 not scored",1.0,Gamma +/-1 d,NB kappa-=1,25,6.049493532662062,29.0,31.0,
+"start day 25, days 38-40 not scored",1.0,Gamma +/-1 d,NB kappa-=0.5,25,3.3644433746226348,32.0,,
+"start day 25, days 38-40 not scored",1.0,Gamma +/-1 d,NB kappa-=0.16,25,0.8059452732753183,,,
+"start day 25, days 38-40 not scored",1.0,Gamma +/-2 d,Poisson,25,6.081408161810636,31.0,32.0,
+"start day 25, days 38-40 not scored",1.0,Gamma +/-2 d,NB kappa-=1,25,1.8412928005774996,,,
+"start day 25, days 38-40 not scored",1.0,Gamma +/-2 d,NB kappa-=0.5,25,0.7100006475153,,,
+"start day 25, days 38-40 not scored",1.0,Gamma +/-2 d,NB kappa-=0.16,25,0.05895598993688367,,,
+"start day 25, days 38-40 not scored",1.0,"short side [m-3, m]",Poisson,25,0.7289834165273774,,,
+"start day 25, days 38-40 not scored",1.0,"short side [m-3, m]",NB kappa-=1,25,-0.5810527938274577,,,
+"start day 25, days 38-40 not scored",1.0,"short side [m-3, m]",NB kappa-=0.5,25,-0.6076028761658527,,,
+"start day 25, days 38-40 not scored",1.0,"short side [m-3, m]",NB kappa-=0.16,25,-0.26643157593777467,,,
+"start day 25, days 38-40 not scored",1.0,KL eps=0.1,Poisson,25,8.895832938056378,29.0,31.0,32.0
+"start day 25, days 38-40 not scored",1.0,KL eps=0.1,NB kappa-=1,25,3.1842473666195747,41.0,,
+"start day 25, days 38-40 not scored",1.0,KL eps=0.1,NB kappa-=0.5,25,1.4948778845606059,,,
+"start day 25, days 38-40 not scored",1.0,KL eps=0.1,NB kappa-=0.16,25,0.07896906851114682,,,
+"start day 25, days 38-40 not scored",1.0,KL eps=0.3,Poisson,25,2.3081749134255602,,,
+"start day 25, days 38-40 not scored",1.0,KL eps=0.3,NB kappa-=1,25,0.11651135465233864,,,
+"start day 25, days 38-40 not scored",1.0,KL eps=0.3,NB kappa-=0.5,25,-0.4274668664004011,,,
+"start day 25, days 38-40 not scored",1.0,KL eps=0.3,NB kappa-=0.16,25,-0.30897810189896635,,,
+"start day 25, days 38-40 not scored",1.0,"long side [m, m+3] (invalid if GI shorter)",Poisson,25,26.780484681243635,25.0,25.0,26.0
+"start day 25, days 38-40 not scored",1.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=1,25,11.420719657414898,26.0,27.0,29.0
+"start day 25, days 38-40 not scored",1.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.5,25,6.889292085458941,27.0,29.0,
+"start day 25, days 38-40 not scored",1.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.16,25,2.124516174752224,,,
+"start day 25, days 38-40 not scored",1.0,known SI,EpiEstim-style P(R_t>r0)>0.95,25,,25.0,,
+"start day 25, days 38-40 not scored",1.0,known SI,growth-rate 95% lower bound,25,,25.0,,
+"start day 25, days 38-40 not scored",1.5,known SI,Poisson,25,3.662261971286526,26.0,,
+"start day 25, days 38-40 not scored",1.5,known SI,NB kappa-=1,25,1.16974630991416,,,
+"start day 25, days 38-40 not scored",1.5,known SI,NB kappa-=0.5,25,0.7000529769823096,,,
+"start day 25, days 38-40 not scored",1.5,known SI,NB kappa-=0.16,25,0.2596390865444489,,,
+"start day 25, days 38-40 not scored",1.5,Gamma +/-1 d,Poisson,25,0.16098642810677788,,,
+"start day 25, days 38-40 not scored",1.5,Gamma +/-1 d,NB kappa-=1,25,-0.09748029188525376,,,
+"start day 25, days 38-40 not scored",1.5,Gamma +/-1 d,NB kappa-=0.5,25,-0.060383658815997165,,,
+"start day 25, days 38-40 not scored",1.5,Gamma +/-1 d,NB kappa-=0.16,25,-0.022158240372363913,,,
+"start day 25, days 38-40 not scored",1.5,Gamma +/-2 d,Poisson,25,-1.523133557516978,,,
+"start day 25, days 38-40 not scored",1.5,Gamma +/-2 d,NB kappa-=1,25,-0.8961093858785514,,,
+"start day 25, days 38-40 not scored",1.5,Gamma +/-2 d,NB kappa-=0.5,25,-0.6038240102266013,,,
+"start day 25, days 38-40 not scored",1.5,Gamma +/-2 d,NB kappa-=0.16,25,-0.2453308475005782,,,
+"start day 25, days 38-40 not scored",1.5,"short side [m-3, m]",Poisson,25,-2.5457568479574864,,,
+"start day 25, days 38-40 not scored",1.5,"short side [m-3, m]",NB kappa-=1,25,-1.7050158549615642,,,
+"start day 25, days 38-40 not scored",1.5,"short side [m-3, m]",NB kappa-=0.5,25,-1.2522578660976316,,,
+"start day 25, days 38-40 not scored",1.5,"short side [m-3, m]",NB kappa-=0.16,25,-0.5572770896713206,,,
+"start day 25, days 38-40 not scored",1.5,KL eps=0.1,Poisson,25,-1.5944286899532862,,,
+"start day 25, days 38-40 not scored",1.5,KL eps=0.1,NB kappa-=1,25,-0.9452711013504449,,,
+"start day 25, days 38-40 not scored",1.5,KL eps=0.1,NB kappa-=0.5,25,-0.6399591485388307,,,
+"start day 25, days 38-40 not scored",1.5,KL eps=0.1,NB kappa-=0.16,25,-0.2611774536935805,,,
+"start day 25, days 38-40 not scored",1.5,KL eps=0.3,Poisson,25,-2.6380129055478907,,,
+"start day 25, days 38-40 not scored",1.5,KL eps=0.3,NB kappa-=1,25,-1.7897583807783621,,,
+"start day 25, days 38-40 not scored",1.5,KL eps=0.3,NB kappa-=0.5,25,-1.327555925062463,,,
+"start day 25, days 38-40 not scored",1.5,KL eps=0.3,NB kappa-=0.16,25,-0.5982005241029302,,,
+"start day 25, days 38-40 not scored",1.5,"long side [m, m+3] (invalid if GI shorter)",Poisson,25,3.6649403036596713,26.0,,
+"start day 25, days 38-40 not scored",1.5,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=1,25,1.1003264774327945,,,
+"start day 25, days 38-40 not scored",1.5,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.5,25,0.6571473653833877,,,
+"start day 25, days 38-40 not scored",1.5,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.16,25,0.24340710806108756,,,
+"start day 25, days 38-40 not scored",1.5,known SI,EpiEstim-style P(R_t>r0)>0.95,25,,25.0,,
+"start day 25, days 38-40 not scored",1.5,known SI,growth-rate 95% lower bound,25,,25.0,,
+"start day 25, days 38-40 not scored",2.0,known SI,Poisson,25,0.09276124963461285,,,
+"start day 25, days 38-40 not scored",2.0,known SI,NB kappa-=1,25,-0.04018486817434752,,,
+"start day 25, days 38-40 not scored",2.0,known SI,NB kappa-=0.5,25,-0.02273917951128368,,,
+"start day 25, days 38-40 not scored",2.0,known SI,NB kappa-=0.16,25,-0.0075863445572252886,,,
+"start day 25, days 38-40 not scored",2.0,Gamma +/-1 d,Poisson,25,-1.454719986717957,,,
+"start day 25, days 38-40 not scored",2.0,Gamma +/-1 d,NB kappa-=1,25,-0.7328314029593122,,,
+"start day 25, days 38-40 not scored",2.0,Gamma +/-1 d,NB kappa-=0.5,25,-0.46464890458029595,,,
+"start day 25, days 38-40 not scored",2.0,Gamma +/-1 d,NB kappa-=0.16,25,-0.1781726243113777,,,
+"start day 25, days 38-40 not scored",2.0,Gamma +/-2 d,Poisson,25,-2.4302442635964434,,,
+"start day 25, days 38-40 not scored",2.0,Gamma +/-2 d,NB kappa-=1,25,-1.427886030761497,,,
+"start day 25, days 38-40 not scored",2.0,Gamma +/-2 d,NB kappa-=0.5,25,-0.9739609999222436,,,
+"start day 25, days 38-40 not scored",2.0,Gamma +/-2 d,NB kappa-=0.16,25,-0.3979337404705543,,,
+"start day 25, days 38-40 not scored",2.0,"short side [m-3, m]",Poisson,25,-3.1416004781016227,,,
+"start day 25, days 38-40 not scored",2.0,"short side [m-3, m]",NB kappa-=1,25,-2.103370142055475,,,
+"start day 25, days 38-40 not scored",2.0,"short side [m-3, m]",NB kappa-=0.5,25,-1.5641657793022454,,,
+"start day 25, days 38-40 not scored",2.0,"short side [m-3, m]",NB kappa-=0.16,25,-0.7036247234227408,,,
+"start day 25, days 38-40 not scored",2.0,KL eps=0.1,Poisson,25,-2.4792871661203923,,,
+"start day 25, days 38-40 not scored",2.0,KL eps=0.1,NB kappa-=1,25,-1.4695310088132154,,,
+"start day 25, days 38-40 not scored",2.0,KL eps=0.1,NB kappa-=0.5,25,-1.0073418904686124,,,
+"start day 25, days 38-40 not scored",2.0,KL eps=0.1,NB kappa-=0.16,25,-0.4135056782392694,,,
+"start day 25, days 38-40 not scored",2.0,KL eps=0.3,Poisson,25,-3.207154544327381,,,
+"start day 25, days 38-40 not scored",2.0,KL eps=0.3,NB kappa-=1,25,-2.17359676380002,,,
+"start day 25, days 38-40 not scored",2.0,KL eps=0.3,NB kappa-=0.5,25,-1.6316146957682665,,,
+"start day 25, days 38-40 not scored",2.0,KL eps=0.3,NB kappa-=0.16,25,-0.7435897627289254,,,
+"start day 25, days 38-40 not scored",2.0,"long side [m, m+3] (invalid if GI shorter)",Poisson,25,-0.03230571099526891,,,
+"start day 25, days 38-40 not scored",2.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=1,25,-0.1126301398484868,,,
+"start day 25, days 38-40 not scored",2.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.5,25,-0.06678823281186652,,,
+"start day 25, days 38-40 not scored",2.0,"long side [m, m+3] (invalid if GI shorter)",NB kappa-=0.16,25,-0.02396324293969787,,,
+"start day 25, days 38-40 not scored",2.0,known SI,EpiEstim-style P(R_t>r0)>0.95,25,,25.0,,
+"start day 25, days 38-40 not scored",2.0,known SI,growth-rate 95% lower bound,25,,25.0,,
